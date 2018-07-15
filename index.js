@@ -105,7 +105,7 @@ const processImage = path => {
     });
   });
 }
-var watcher = chokidar.watch('/Users/nicholasclark/Desktop', {
+var watcher = chokidar.watch('/icloud drive/Desktop', {
   ignored: /(^|[\/\\])\../,
   ignoreInitial: true,
   persistent: true
